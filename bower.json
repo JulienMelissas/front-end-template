@@ -1,20 +1,21 @@
 {
-  "name": "gc2",
-  "version": "1.0.0",
-  "homepage": "http://www.galaxydigital.com/",
+  "name": "front-end-template",
+  "homepage": "https://roots.io/sage/",
   "authors": [
-    "Craftpeak <development@craftpeak.com>"
+    "Julien Melissas <julien@jmlabs.io>"
   ],
-  "private": true,
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "assets/vendor"
-  ],
+  "license": "WTFPL",
   "dependencies": {
     "modernizr": "2.8.2",
-    "jquery": "1.11.1",
-    "bootstrap": "3.2.0",
-    "respond": "1.4.2"
+    "jquery": "1.11.2",
+    "normalize.css": "~3.0.3"
+  },
+  "overrides": {
+    "modernizr": {
+      "main": "./modernizr.js"
+    },
+    "normalize.css": {
+      "main": "./normalize.css"
+    }
   }
 }
