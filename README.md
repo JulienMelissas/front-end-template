@@ -31,3 +31,7 @@ You now have all the necessary dependencies to run the build process.
 ## Using BrowserSync
 
 It happens automatically as soon as you run `gulp watch`. Yay!
+
+## CSS Preprocessors
+By default this repo uses Sass - but there is a [Less branch](https://github.com/JulienMelissas/front-end-template/tree/less) availble for those who prefer Less.
+For those using Sass, please keep in mind the gulfile uses `glup-sass` - which uses libsass.
