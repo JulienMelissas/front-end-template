@@ -217,7 +217,7 @@ gulp.task('clean', require('del').bind(null, [path.dist]));
 // See: http://www.browsersync.io
 gulp.task('watch', function() {
   browserSync({
-    files: [path.dist],
+    files: [path.dist, '*.html'],
     server: {
       baseDir: "./"
     }
