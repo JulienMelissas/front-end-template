@@ -219,7 +219,7 @@ gulp.task('watch', function() {
   browserSync({
     files: [path.dist, '*.html'],
     server: {
-      baseDir: "./"
+      baseDir: './'
     }
   });
   gulp.watch([path.source + 'styles/**/*'], ['styles']);
