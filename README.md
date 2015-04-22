@@ -26,7 +26,7 @@ You now have all the necessary dependencies to run the build process.
 
 * `gulp` — Compile and optimize the files in your assets directory
 * `gulp watch` — Compile assets when file changes are made
-* `gulp --production` — Compile assets for production (no source maps). (keep in mind that if you run this, you'll need to update the filesnames yourself...)
+* `gulp --production` — Compile assets for production (no source maps). Keep in mind that if you run this, you'll need to update the filenames in `index.html` or wherever you have it yourself.
 
 ## Using BrowserSync
 
