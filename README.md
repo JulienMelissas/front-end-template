@@ -12,7 +12,7 @@ A front-end project template based off of the workflow from the [Sage](https://g
 
 ## Install gulp and Bower
 
-Building the theme requires [node.js](http://nodejs.org/download/). We recommend you update to the latest version of npm: `npm install -g npm@latest`.
+Building the project requires [node.js](http://nodejs.org/download/). We recommend you update to the latest version of npm: `npm install -g npm@latest`.
 
 From the command line:
 
